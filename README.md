@@ -6,6 +6,12 @@ real API once, it records the exchanges; point your tests at the
 recording instead of the network, so they stop being flaky because a
 third-party API had a bad day.
 
+## Installation
+
+```sh
+cargo install --path .
+```
+
 ## Usage
 
 ```bash
